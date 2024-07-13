@@ -103,7 +103,7 @@ class Qbit():
         Apply a one-qubit operator to the state of a qubit (object)
 
         Example:
-        >>> q.Gate('X')
+        >>> q.gate('X')
 
         X -- operator
         """
@@ -184,7 +184,7 @@ class Qsystem(Qbit):
         Apply a combination of operators to the qubit system
 
         Example:
-        >>> sys.Gate('*$H*')
+        >>> sys.gate('*$H*')
 
         sys -- qubit system
         *, $, H -- operators
